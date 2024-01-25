@@ -1,0 +1,287 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f1e7da;
+  margin: 0;
+}
+
+body h1,
+h2 {
+  font-family: comfortaa;
+  color: #39B54A;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 85%;
+  text-align: center;
+  margin: 0 10px;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.image {
+  margin-top: -90px;
+}
+
+header {
+  font-family: montserrat;
+  font-size: 85%;
+  text-align: center;
+  background-color: #f4decb;
+  color-scheme: 30;
+  position: fixed;
+  margin-top: -100px;
+  padding: 0%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  border-bottom: 2px solid black;
+}
+
+header figure {
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  scale: 50%;
+}
+
+
+footer {
+  border-top: 2px solid black;
+  margin-top: 50px;
+  font-size: smaller;
+}
+
+
+
+/*main {
+  margin-top: 150px;
+}*/
+
+nav {
+  background-color: #f4decb;
+
+}
+
+ul {
+  margin-top: 3%;
+  display: flex;
+  margin-top: -70px;
+  justify-content: space-evenly;
+  margin-left: -80px;
+  background-color: #f4decb;
+  list-style-type: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+.container {
+  padding: 2rem;
+  margin-top: 30px;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 10.7;
+  overflow-x: auto;
+  box-shadow: rgb(0, 0, 0) 5px 3px 10px;
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+  border-radius: 30px;
+  scroll-snap-align: start;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+
+}
+
+
+
+.foto {
+  display: flex;
+  margin-top: 30px;
+  margin-left: -630px;
+  scale: 50%;
+}
+
+.tekst {
+  margin-top: 250px;
+}
+
+.tekst p {
+  margin-top: 0px;
+}
+
+
+.tekst img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -20px;
+  scale: 60%;
+}
+
+
+.tekst h2 {
+  text-align: center;
+  font-family: serif;
+  margin-top: 40px;
+}
+
+.homescreen h2 {
+  margin-top: 60px;
+}
+
+
+.homescreen {
+  font-family: Tahoma;
+  margin-top: -20px;
+  flex-direction: row;
+  border: 0;
+  align-content: center;
+  align-items: center;
+  width: 75%;
+  padding-top: 5px;
+  margin-left: 8vw;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 1vh;
+  background-color: #233963;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 5px 3px 10px;
+}
+
+.homescreen p,
+.homescreen h2,
+.homescreen h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: 10px 5px;
+}
+
+
+.haarlem1 {
+  font-family: tahoma;
+  margin-top: 260px;
+  flex-direction: row;
+  border: 0;
+  align-content: center;
+  align-items: center;
+  width: 75%;
+  padding-top: 1px;
+  margin-left: 9vw;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 1vh;
+  background-color: #233963;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+}
+
+.haarlem1 p,
+.haarlem2 p {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.5px 0.5px 0.5px;
+  margin: 10px 5px;
+  margin-top: -10px;
+}
+
+.haarlem2 {
+  font-family: tahoma;
+  margin-top: 30px;
+  flex-direction: row;
+  border: 0;
+  align-content: center;
+  align-items: center;
+  width: 75%;
+  padding-top: 0.1px;
+  margin-left: 9vw;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 1vh;
+  background-color: #233963;
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+}
+
+.haarlem1 h2,
+.haarlem2 h2,
+.haarlem1 h4 {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.loop img,
+.loop1 img {
+  height: 200px;
+  width: auto;
+  border-color: #000000;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 1px 3px 3px;
+}
+
+.loop1 h3,
+.loop h3 {
+  margin-top: -700px;
+}
+
+
+.loop,
+.loop1 {
+  display: flex;
+  justify-content: center;
+}
+
+.patat {
+  margin-top: 20px;
+}
+
+.patat2 p {
+  line-height: -40px;
+}
